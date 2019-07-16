@@ -10,7 +10,24 @@
   </head>
 
   <body>
-    <h1> Hello World </h1>
+    <header class="row">
+      <div class="col-3">
+      <div>
+        LOGO
+      </div>
+      <div class="col-4">
+        Inspiration Nation
+      </div>
+      <div class="col-5">
+        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+
+    </header>
+
+    <br class="clear" />
+    
     <%= yield %>
+  
   </body>
 </html>
